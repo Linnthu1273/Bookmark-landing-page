@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+$font-family-sans-serif : 'Rubik', sans-serif;
+
+$navbar-nav-link-padding-x : 20px;
+$navbar-padding-y :1.5rem;
+$btn-padding-x : 1rem;
+$btn-border-width : 2px;
+
+$card-border-color : transparent;
+$card-border-radius : 1rem;
+
+$accordion-button-color : #000;
+$accordion-button-active-color : hsl(0, 94%, 66%);
+
+
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.header{
+    z-index: 1500;
+}
+.login:hover{
+    background-color: white !important;
+    color: hsl(0, 94%, 66%) !important;
+}
+
+.min-vh-70{
+    min-height: 70vh;
+}
+
+.mb-150{
+    margin-bottom: 150px;
+}
+.mb-300{
+    margin-bottom: 300px;
+}
+.feaure-tab{
+    .nav-link{
+        padding: 1rem 2.5rem;
+        background-color: white !important;
+        color: #333 !important;
+         border-bottom: 2px solid hsl(0, 0%, 82%) !important;
+         border-radius: 0px;
+    }
+    .nav-link.active{
+        border-bottom: 3px solid hsl(0, 94%, 66%) !important;
+        border-radius: 0px;
+    }
+}
+
+.footer-text{
+    letter-spacing: 5px;
+}
+
+footer{
+    background-color: hsl(229, 31%, 21%);
+}
+
+@media  screen and (max-width:576px) {
+    .btn{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
